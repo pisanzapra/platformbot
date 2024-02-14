@@ -1,7 +1,22 @@
 # platform
 
+This git is about a robot which goes randomly in a space using Raspberry Pi and Arduino. Also this robot has a platform
+for a drone to land. But this platform does not stays same but moves randomly separated from the robot. The "Arduino"
+directory has necessary codes for this separated movements for each robot and platform. And also the "Python" directory
+has necessary codes for the connection between Raspberry Pi and Arduino. And here is how you can do it:
 
+## INSTALL ARDUINO IDE:
 
+## INSTALL PYTHON 3:
+
+## INSTALL UBUNTU SERVER FOR RPI:
+
+## COMMANDS:
+
+## GET PYTHON CODE FOR RPI FROM GIT:
+
+## 
+ 
 ## Getting started
 
 To make it easy for you to get started with GitLab, here's a list of recommended next steps.
