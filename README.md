@@ -109,9 +109,6 @@ When you're ready to make this README your own, just edit this file and use the 
 Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
 
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
 ## Visuals
 Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
 
@@ -119,10 +116,7 @@ Depending on what you are making, it can be a good idea to include screenshots o
 Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
 
 ## Questions & Support
-If you have any questions or suggestions, you can contact us from izuyildizcicegi@gmail.com
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+If you have any questions or suggestions, you can contact us from izuyildizcicegi@gmail.com 
 
 ## Contributing
 State if you are open to contributions and what your requirements are for accepting them.
@@ -141,4 +135,4 @@ This project made for İstanbul Zaim University AprilLand AGM Team, by;
 For open source projects, say how it is licensed.
 
 ## Project status
-THis project still being developed...
+This project still being developed...
