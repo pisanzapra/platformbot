@@ -18,8 +18,10 @@ def send_random_command():
     commands = ['F', 'B', 'R', 'L', 'M']
     random_command = random.choice(commands)
     ser.write(random_command.encode())
-    print(f"Sent command: {random_command}")
-    time.sleep(5)  # İsteğe bağlı, arduino'nun komutu işlemesi için bir süre bekleyebilirsiniz
+    print("Sent command: {random_command}")
+    random_sleep_time = random.uniform(1, 10)  # 1 ile 10 saniye arasında rastgele bir süre seç
+    time.sleep(random_sleep_time)  # İsteğe bağlı, arduino'nun komutu işlemesi için bir süre bekleyebilirsiniz
+
 
 try:
     print("Program başladı. Rastgele komutlar gönderiliyor. Çıkış için Ctrl+C kullanabilirsiniz.")
