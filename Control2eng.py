@@ -21,7 +21,8 @@ def send_random_command():
         random_command = random.choice(commands)
         ser.write(random_command.encode())
         print(f"Sent command: {random_command}")
-        time.sleep(5)
+        random_sleep_time = random.uniform(1,5)  # 1 ile 5 saniye arasında rastgele bir süre seç
+        time.sleep(random_sleep_time)  # İsteğe bağlı, arduino'nun komutu işlemesi için bir süre bekleyebilirsiniz
     except KeyboardInterrupt:
         # Stop motors when Ctrl+C is pressed
         print("\nCtrl+C detected. Stopping the motors...")
