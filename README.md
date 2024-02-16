@@ -9,13 +9,61 @@ has necessary codes for the connection between Raspberry Pi and Arduino. And her
 
 # INSTALLATION:
 ## 1) INSTALL ARDUINO IDE:
+- First you need to update all the packages:
 
+  > sudo apt update
+
+- Then install all the necessary packages by writing:
+
+  > sudo apt full-upgrade _that-package_
+
+- Now install **Arduino IDE**:
+
+  > sudo apt-get install arduino
+
+- Then press "Y".
+
+You are good to go
 ## 2) INSTALL PYTHON 3:
+- Before all, please check if you have Pyhton already:
 
+  > python3
+
+- Then, again, enter _update_ command:
+  
+  > sudo apt update
+
+- Now install Python3:
+  
+  > sudo apt install python3
+
+- And check your Python version:
+  
+  > python3 --version
+
+- You have downloaded Python3 :)
 ## 3) INSTALL UBUNTU SERVER FOR RPI:
+- To use Arduino with Raspberry Pi, you need to use Raspberry Pi first.
+You can download **Raspberry Pi Imager** from terminal by writing:
+  
+  > sudo apt-get install rpi-imager
+
+- Or you can download it from [Raspberry Pi's official website](https://www.raspberrypi.com/software/)
 
 ## 4) COMMANDS:
+-
+  
+  $
 
+-
+  
+  $
+
+-
+  
+  $
+
+-
 ## 5) GET PYTHON CODE FOR RPI FROM GIT:
 
 ## 6)
@@ -39,13 +87,6 @@ git push -uf origin main
 
 - [ ] [Set up project integrations](https://gitlab.com/yildiz_cicegi/platform/-/settings/integrations)
 
-## Collaborate with your team
-
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Set auto-merge](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
 
 ## Test and Deploy
 
