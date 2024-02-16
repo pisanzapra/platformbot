@@ -1,3 +1,8 @@
+# _*NOTLAR*_
+- [ ] Kodların ne işe yaradığı yazılacak.
+- [ ] Git'den kodların alınımı yazılacak.
+- [ ] X
+
 # platform
 
 This git is about a robot which goes randomly in a space using Raspberry Pi and Arduino. Also this robot has a platform
@@ -5,70 +10,85 @@ for a drone to land. But this platform does not stays same but moves randomly se
 directory has necessary codes for this separated movements for each robot and platform. And also the "Python" directory
 has necessary codes for the connection between Raspberry Pi and Arduino. And here is how you can do it:
 
+# What These Codes Actually Do?
+
+## Control.py:
+
+## Control2.py:
+
+## Control2eng.py:
+
+## Control2tr.py:
+
+## RPi_Deneme.ino:
+
+## RPi_Deneme2.ino:
+
+## RPi_Deneme3.ino:
+
+## RPi_Deneme4.ino:
+
+
 ***
 
 # INSTALLATION:
 ## 1) INSTALL ARDUINO IDE:
 - First you need to update all the packages:
-
-  > sudo apt update
-
+```
+sudo apt update
+```
 - Then install all the necessary packages by writing:
-
-  > sudo apt full-upgrade _that-package_
-
+```
+sudo apt full-upgrade "packages-you-see-on-terminal"
+```
 - Now install **Arduino IDE**:
-
-  > sudo apt-get install arduino
-
+```
+sudo apt-get install arduino
+```
 - Then press "Y".
 
-You are good to go
+You are good to go.
 ## 2) INSTALL PYTHON 3:
-- Before all, please check if you have Pyhton already:
-
-  > python3
-
+- Before all, please check if you have Python already:
+```
+python3
+```
 - Then, again, enter _update_ command:
-  
-  > sudo apt update
-
+```
+sudo apt update
+```
 - Now install Python3:
-  
-  > sudo apt install python3
-
+```  
+sudo apt install python3
+```
 - And check your Python version:
-  
-  > python3 --version
-
+```
+python3 --version
+```
 - You have downloaded Python3 :)
 ## 3) INSTALL UBUNTU SERVER FOR RPI:
 - To use Arduino with Raspberry Pi, you need to use Raspberry Pi first.
 You can download **Raspberry Pi Imager** from terminal by writing:
-  
-  > sudo apt-get install rpi-imager
+```
+sudo apt-get install rpi-imager
 
+```
 - Or you can download it from [Raspberry Pi's official website](https://www.raspberrypi.com/software/)
 
-## 4) COMMANDS:
+## 4) GET PYTHON CODE FOR RPI FROM GIT:
 -
+```
   
-  $
-
+```
 -
+```
   
-  $
-
+```
 -
+```
   
-  $
-
+```
 -
-## 5) GET PYTHON CODE FOR RPI FROM GIT:
-
-## 6)
- 
-## 7)
 
 
 ## Add your files
@@ -103,10 +123,6 @@ Use the built-in continuous integration in GitLab.
 # Editing this README
 
 When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
-
-## Suggestions for a good README
-
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
 
 
 ## Visuals
