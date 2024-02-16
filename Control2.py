@@ -3,7 +3,7 @@ import time
 import random
 
 # Raspberry Pi üzerindeki Arduino'nun bağlı olduğu seri portu belirtin
-arduino_port = "/dev/ttyUSB1"  # Bu port ismini Arduino'nun bağlandığı porta göre güncelleyin
+arduino_port = "/dev/ttyUSB0"  # Bu port ismini Arduino'nun bağlandığı porta göre güncelleyin
 
 # Arduino ile iletişim için seri portu açın
 ser = serial.Serial(arduino_port, 9600, timeout=5)
