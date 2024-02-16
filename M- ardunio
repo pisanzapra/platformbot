@@ -10,6 +10,7 @@ int brakePinA = 9;
 int directionPinB = 13;
 int pwmPinB = 11;
 int brakePinB = 8;
+int A;
 
 int getRandomPWMValue() {
     return random(0, 256); // 0 ile 255 arasında rastgele bir değer döndürür
@@ -42,8 +43,9 @@ void loop() {
                 digitalWrite(brakePinB, LOW);
                 digitalWrite(directionPinA, HIGH);
                 digitalWrite(directionPinB, HIGH);
-                analogWrite(pwmPinA, getRandomPWMValue());
-                analogWrite(pwmPinB, getRandomPWMValue());
+                getRandomPWMValue()=A;
+                analogWrite(pwmPinA, A);
+                analogWrite(pwmPinB, A);
                 break;
             case 'B':
                 Serial.println("Backward command received");
@@ -51,8 +53,9 @@ void loop() {
                 digitalWrite(brakePinB, LOW);
                 digitalWrite(directionPinA, LOW);
                 digitalWrite(directionPinB, LOW);
-                analogWrite(pwmPinA, getRandomPWMValue());
-                analogWrite(pwmPinB, getRandomPWMValue());
+                getRandomPWMValue()=A;
+                analogWrite(pwmPinA, A);
+                analogWrite(pwmPinB, A);
                 break;
             case 'R':
                 Serial.println("Right command received");
@@ -60,8 +63,9 @@ void loop() {
                 digitalWrite(brakePinB, HIGH);
                 digitalWrite(directionPinA, HIGH);
                 digitalWrite(directionPinB, HIGH);
-                analogWrite(pwmPinA, getRandomPWMValue());
-                analogWrite(pwmPinB, getRandomPWMValue());
+                getRandomPWMValue()=A;
+                analogWrite(pwmPinA, A);
+                analogWrite(pwmPinB, A);
                 break;
             case 'L':
                 Serial.println("Left command received");
@@ -69,8 +73,9 @@ void loop() {
                 digitalWrite(brakePinB, LOW);
                 digitalWrite(directionPinA, HIGH);
                 digitalWrite(directionPinB, HIGH);
-                analogWrite(pwmPinA, getRandomPWMValue());
-                analogWrite(pwmPinB, getRandomPWMValue());
+                getRandomPWMValue()=A;
+                analogWrite(pwmPinA, A);
+                analogWrite(pwmPinB, A);
                 break;
             case 'M':
                 Serial.println("Malibu command received");
@@ -78,8 +83,9 @@ void loop() {
                 digitalWrite(brakePinB, LOW);
                 digitalWrite(directionPinA, LOW);
                 digitalWrite(directionPinB, HIGH);
-                analogWrite(pwmPinA, getRandomPWMValue());
-                analogWrite(pwmPinB, getRandomPWMValue());
+                getRandomPWMValue()=A;
+                analogWrite(pwmPinA, A);
+                analogWrite(pwmPinB, A);
                 break;
             case 'P':
                 Serial.println("Quit command received");
