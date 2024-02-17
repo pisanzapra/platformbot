@@ -1,34 +1,35 @@
 # _*NOTLAR*_
 - [ ] Kodların ne işe yaradığı yazılacak.
 - [ ] Git'den kodların alınımı yazılacak.
-- [ ] 1) İleri (tek eksende) sabit hızda hareket.
-- [ ] 2) İleri + sağ-sol (çift eksende) sabit hızda hareket.
-- [ ] 3) İleri + sağ-sol (çift eksende) değişken hızlarda hareket.
-- [ ] 4) Platform (üçüncü eksen) için servolarla hareket denenip eklenecek.
+- [x] 1) Tek eksende (ileri) sabit hızda hareket (_Ömer'de ve henüz eklenmedi_).
+- [x] 1) Tek eksende değişken hızlarda hareket (_Ömer'de ve henüz eklenmedi_).
+- [ ] 3) Çift eksende (İleri + sağ-sol) sabit hızda hareket.
+- [x] 4) Çift eksende değişken hızlarda hareket.
+- [ ] 5) Platform (üçüncü eksen) için servolarla hareket denenip eklenecek.
 
 # PlatformBot
 
 This git is about a robot which goes randomly in a space using **Raspberry Pi** and **Arduino**. Also this robot has a platform for a drone to land bu using **IMU Sensor**. But this platform does not stays same but moves randomly separated from the robot.
 
-# What These Codes Actually Do?
+## What These Codes Actually Do?
 
 <details><summary>Robot Control Codes</summary>
 
-## Control.py:
+   ##               Control.py:
 
-## Control2.py:
+   ##               Control2.py:
 
-## Control2eng.py:
+   ##               Control2eng.py:
 
-## Control2tr.py:
+   ##               Control2tr.py:
 
-## RPi_Deneme.ino:
+   ##               RPi_Deneme.ino:
 
-## RPi_Deneme2.ino:
+   ##               RPi_Deneme2.ino:
 
-## RPi_Deneme3.ino:
+   ##               RPi_Deneme3.ino:
 
-## RPi_Deneme4.ino:
+   ##               RPi_Deneme4.ino:
 
 </details>
 
@@ -169,3 +170,4 @@ For open source projects, say how it is licensed.
 
 ## Project status
 This project still being developed...
+:ballot_box_with_check: :white_check_mark: :heavy_check_mark:
