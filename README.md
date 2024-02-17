@@ -1,7 +1,7 @@
 # _*NOTLAR*_
 - [ ] Kodların ne işe yaradığı yazılacak.
 - [ ] Git'den kodların alınımı yazılacak.
-- [ ] 1) İleri (tek eksende) sahbit hızda hareket.
+- [ ] 1) İleri (tek eksende) sabit hızda hareket.
 - [ ] 2) İleri + sağ-sol (çift eksende) sabit hızda hareket.
 - [ ] 3) İleri + sağ-sol (çift eksende) değişken hızlarda hareket.
 - [ ] 4) Platform (üçüncü eksen) için servolarla hareket denenip eklenecek.
