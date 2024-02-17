@@ -6,14 +6,13 @@
 - [ ] 3) İleri + sağ-sol (çift eksende) değişken hızlarda hareket.
 - [ ] 4) Platform (üçüncü eksen) için servolarla hareket denenip eklenecek.
 
-# platform
+# PlatformBot
 
-This git is about a robot which goes randomly in a space using Raspberry Pi and Arduino. Also this robot has a platform
-for a drone to land. But this platform does not stays same but moves randomly separated from the robot. The "Arduino"
-directory has necessary codes for this separated movements for each robot and platform. And also the "Python" directory
-has necessary codes for the connection between Raspberry Pi and Arduino. And here is how you can do it:
+This git is about a robot which goes randomly in a space using **Raspberry Pi** and **Arduino**. Also this robot has a platform for a drone to land bu using **IMU Sensor**. But this platform does not stays same but moves randomly separated from the robot.
 
 # What These Codes Actually Do?
+
+<details><summary>Robot Control Codes</summary>
 
 ## Control.py:
 
@@ -31,6 +30,25 @@ has necessary codes for the connection between Raspberry Pi and Arduino. And her
 
 ## RPi_Deneme4.ino:
 
+</details>
+
+<details><summary>Platform Control Codes</summary>
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+## 
+
+</details>
 
 ***
 
@@ -105,10 +123,6 @@ git remote add origin https://gitlab.com/yildiz_cicegi/platform.git
 git branch -M main
 git push -uf origin main
 ```
-
-## Integrate with your tools
-
-- [ ] [Set up project integrations](https://gitlab.com/yildiz_cicegi/platform/-/settings/integrations)
 
 
 ## Test and Deploy
