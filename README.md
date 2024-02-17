@@ -2,7 +2,7 @@
 - [ ] Kodların ne işe yaradığı yazılacak.
 - [ ] Git'den kodların alınımı yazılacak.
 - [x] 1) Tek eksende (ileri) sabit hızda hareket (_Ömer'de ve henüz eklenmedi_).
-- [x] 1) Tek eksende değişken hızlarda hareket (_Ömer'de ve henüz eklenmedi_).
+- [x] 2) Tek eksende değişken hızlarda hareket (_Ömer'de ve henüz eklenmedi_).
 - [ ] 3) Çift eksende (İleri + sağ-sol) sabit hızda hareket.
 - [x] 4) Çift eksende değişken hızlarda hareket.
 - [ ] 5) Platform (üçüncü eksen) için servolarla hareket denenip eklenecek.
