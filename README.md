@@ -1,53 +1,43 @@
 # _*NOTLAR*_
 - [ ] Kodların ne işe yaradığı yazılacak.
 - [ ] Git'den kodların alınımı yazılacak.
-- [x] 1) Tek eksende (ileri) sabit hızda hareket (_Ömer'de ve henüz eklenmedi_).
-- [x] 2) Tek eksende değişken hızlarda hareket (_Ömer'de ve henüz eklenmedi_).
-- [ ] 3) Çift eksende (İleri + sağ-sol) sabit hızda hareket.
+- [x] 1) Tek eksende (ileri) sabit hızda hareket.
+- [x] 2) Tek eksende değişken hızlarda hareket.
+- [x] 3) Çift eksende (İleri + sağ-sol) sabit hızda hareket.
 - [x] 4) Çift eksende değişken hızlarda hareket.
-- [ ] 5) Platform (üçüncü eksen) için servolarla hareket denenip eklenecek.
-
+- [ ] Bütün senaryolar için control kodları eklenebilir.
+- [ ] Geri gidiş özelliği Arduino kodlarında kalabilir ama Python kodlarında kaldırabiliriz. Böylece geri hareketi eklemek istediğimizde tek bir tuşla yaparız bu du senaryoyu.
++ [ ] 5) Platform (üçüncü eksen) için servolarla hareket denenip eklenecek.
+- [ ] "What These Codes Do?" kısmı genelden ziyade her bir klasörü içerebilir.
 # PlatformBot
 
 This git is about a robot which goes randomly in a space using **Raspberry Pi** and **Arduino**. Also this robot has a platform for a drone to land bu using **IMU Sensor**. But this platform does not stays same but moves randomly separated from the robot.
 
 ## What These Codes Actually Do?
 
-<details><summary>Robot Control Codes</summary>
+<details><summary>Robot Motion Codes</summary>
 
-   ##               Control.py:
 
-   ##               Control2.py:
+   ## Changing Speed Forward:
+   This Arduino code makes the robot go only 1 direction (forward) and within a speed that changes randomly.
 
-   ##               Control2eng.py:
-
-   ##               Control2tr.py:
-
-   ##               RPi_Deneme.ino:
-
-   ##               RPi_Deneme2.ino:
-
-   ##               RPi_Deneme3.ino:
-
-   ##               RPi_Deneme4.ino:
+   ## Constant Speed Forward:
+   This one also makes the robot go only 1 direction but this time the robot has a constant speed.
+   ## Two-Axis Constant Motion:
+   The code runs the robot within 2-axes but in a constant speed.
+   ## RPi_Deneme4.ino:
 
 </details>
 
-<details><summary>Platform Control Codes</summary>
+<details><summary>Robot Control Codes</summary>
 
-## 
+   ## Control.py:
 
-## 
+   ## Control2.py:
 
-## 
+   ## Control2eng.py:
 
-## 
-
-## 
-
-## 
-
-## 
+   ## Control2tr.py:
 
 </details>
 
