@@ -8,7 +8,7 @@
 - [ ] Bütün senaryolar için control kodları eklenebilir.
 - [ ] Geri gidiş özelliği Arduino kodlarında kalabilir ama Python kodlarında kaldırabiliriz. Böylece geri hareketi eklemek istediğimizde tek bir tuşla yaparız bu du senaryoyu.
 + [ ] 5) Platform (üçüncü eksen) için servolarla hareket denenip eklenecek.
-- [ ] "What These Codes Do?" kısmı genelden ziyade her bir klasörü içerebilir.
+- [ ] "What These Codes Actually Do?" kısmı genelden ziyade her bir klasörü içerebilir.
 # PlatformBot
 
 This git is about a robot which goes randomly in a space using **Raspberry Pi** and **Arduino**. Also this robot has a platform for a drone to land bu using **IMU Sensor**. But this platform does not stays same but moves randomly separated from the robot.
