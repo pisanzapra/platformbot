@@ -17,7 +17,7 @@ else:
 def send_random_command():
     try:
         time.sleep(1)
-        commands = ['F', 'B', 'R', 'L', 'M']
+        commands = ['F', 'R', 'L']
         random_command = random.choice(commands)
         ser.write(random_command.encode())
         print(f"Sent command: {random_command}")
