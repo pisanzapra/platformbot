@@ -15,7 +15,7 @@ else:
     exit(1)
 
 def send_random_command():
-    commands = ['F', 'B', 'R', 'L', 'M']
+    commands = ['F', /*'B'*/, 'R', 'L', 'M']
     random_command = random.choice(commands)
     ser.write(random_command.encode())
     print(f"Sent command: {random_command}")
