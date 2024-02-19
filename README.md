@@ -15,30 +15,33 @@ This git is about a robot which goes randomly in a space using **Raspberry Pi** 
 
 ## What These Codes Actually Do?
 
-<details><summary>Robot Motion Codes</summary>
+<details><summary>Changing Speed Forward</summary>
 
-
-   ## Changing Speed Forward:
+   ## changing_speed_forward.ino:
    This Arduino code makes the robot go only 1 direction (forward) and within a speed that changes randomly.
-
-   ## Constant Speed Forward:
-   This one also makes the robot go only 1 direction but this time the robot has a constant speed.
-   ## Two-Axis Constant Motion:
-   The code runs the robot within 2-axes but in a constant speed.
-   ## RPi_Deneme4.ino:
-
-</details>
-
-<details><summary>Robot Control Codes</summary>
-
-   ## Control.py:
 
    ## Control2.py:
 
-   ## Control2eng.py:
+</details>
 
-   ## Control2tr.py:
+<details><summary>Constant Speed Forward</summary>
 
+   ## constant_speed_forward.ino: 
+   ## :
+
+</details>
+
+<details><summary>Two-Axis Changing Motion</summary>
+
+   ## :
+   ## :
+</details>
+
+<details><summary>Two-Axis Constant Motion</summary>
+
+   ## const_speed_2axis.ino:
+
+   ## :
 </details>
 
 ***
