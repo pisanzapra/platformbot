@@ -1,6 +1,6 @@
 # _*NOTLAR*_
 - [x] Kodların ne işe yaradığı yazılacak.
-- [ ] Git'den kodların alınımı yazılacak.
+- [x] Git'den kodların alınımı yazılacak.
 - [x] 1) Tek eksende (ileri) sabit hızda hareket.
 - [x] 2) Tek eksende değişken hızlarda hareket.
 - [x] 3) Çift eksende (İleri + sağ-sol) sabit hızda hareket.
@@ -97,20 +97,35 @@ sudo apt-get install rpi-imager
 - Or you can download it from [Raspberry Pi's official website](https://www.raspberrypi.com/software/)
 
 ## 4) GET PYTHON CODE FOR RPI FROM GIT:
--
+- First, check your Git version:
 ```
-  
+git --version
 ```
--
+- It has to look like this:
 ```
-  
+git version a.b.c (do not copy this)
 ```
--
+- Then configure Git:
 ```
-  
+git config --global user.name "YourUsername" 
 ```
--
-
+- After configuring your username, configure your e-mail:
+```
+git config --global user.email "YourEmailAddress@example.com"
+```
+- Now, check everything:
+```
+git config --global --list
+```
+- Now go to the PlatformBot Repository:
+```
+git clone https://gitlab.com/yildiz_cicegi/platform.git
+```
+- Now, in the "~/home" directory, you have a folder called "platform". Go and check it:
+```
+cd platform
+```
+- You have the repo of PlatformBot.
 
 ***
 
