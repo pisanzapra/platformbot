@@ -6,7 +6,7 @@
 - [x] 3) Çift eksende (İleri + sağ-sol) sabit hızda hareket.
 - [x] 4) Çift eksende değişken hızlarda hareket.
 - [x] Bütün senaryolar için control kodları eklenebilir.
-- [x] Geri gidiş özelliği Arduino kodlarında kalabilir ama Python kodlarında kaldırabiliriz. Böylece geri hareketi eklemek istediğimizde tek bir tuşla yaparız bu du senaryoyu.
+- [x] Geri gidiş özelliği Arduino kodlarında kalabilir ama Python kodlarında kaldırabiliriz. Böylece geri hareketi eklemek istediğimizde tek bir tuşla yaparız bu senaryoyu.
 + [ ] 5) Platform (üçüncü eksen) için servolarla hareket denenip eklenecek.
 - [x] "What These Codes Actually Do?" kısmı genelden ziyade her bir klasörü içerebilir.
 # PlatformBot
@@ -141,9 +141,11 @@ This project made for İstanbul Zaim University AprilLand AGM Team, by;
 - Ö. Kaan KESKİNER
 - Merve ÖZER
 
+This README is written by Ö. Kaan KESKİNER (@keskineromer9).
+
 ## License
 For open source projects, say how it is licensed.
 
 ## Project status
-This project still being developed...
+This project still being developed (%64)...
 :ballot_box_with_check: :white_check_mark: :heavy_check_mark:
