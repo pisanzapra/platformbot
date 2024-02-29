@@ -1,5 +1,5 @@
 # _*NOTLAR*_
-- [ ] Kodların ne işe yaradığı yazılacak.
+- [x] Kodların ne işe yaradığı yazılacak.
 - [ ] Git'den kodların alınımı yazılacak.
 - [x] 1) Tek eksende (ileri) sabit hızda hareket.
 - [x] 2) Tek eksende değişken hızlarda hareket.
@@ -18,30 +18,36 @@ This git is about a robot which goes randomly in a space using **Raspberry Pi** 
 <details><summary>Changing Speed Forward</summary>
 
    ## changing_speed_forward.ino:
-   This Arduino code makes the robot go only 1 direction (forward) and within a speed that changes randomly.
+   This Arduino code is programmed for the robot to go only 1 direction (forward) and within a speed that changes randomly.
 
    ## Control2.py:
+   This control code makes the robot move. Also it is communicated with Arduino and displays direction and speed varies to control the PlatformBot.
 
 </details>
 
 <details><summary>Constant Speed Forward</summary>
 
-   ## constant_speed_forward.ino: 
-   ## :
+   ## constant_speed_forward.ino:
+   This one is the same thing with "changing_speed_forward.ino" but only difference is this one has a constant speed.
+   ## Control2.py:
+   This control code is the same, makes the robot move. Also it is communicated with Arduino and displays direction and speed varies to control the PlatformBot.
 
 </details>
 
 <details><summary>Two-Axis Changing Motion</summary>
 
-   ## :
-   ## :
+   ## RPi_Deneme4.ino:
+   With RPi_Deneme4.ino a simple changes have made. This one does not only goes forward, but also left and right randomly.
+   ## Control2.py:
+   This control code is the same with the other ones.
 </details>
 
 <details><summary>Two-Axis Constant Motion</summary>
 
    ## const_speed_2axis.ino:
-
-   ## :
+   As you can see from it's name, "const_speed_2axis.ino" has only one difference from "RPi_Deneme4.ino": CONSTANT SPEED!
+   ## Control2.py:
+   Guess what? :D
 </details>
 
 ***
@@ -105,29 +111,6 @@ sudo apt-get install rpi-imager
 ```
 -
 
-
-## Add your files
-
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
-
-```
-cd existing_repo
-git remote add origin https://gitlab.com/yildiz_cicegi/platform.git
-git branch -M main
-git push -uf origin main
-```
-
-
-## Test and Deploy
-
-Use the built-in continuous integration in GitLab.
-
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
 
 ***
 
