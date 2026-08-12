@@ -1,14 +1,3 @@
-# _*NOTLAR*_
-- [x] Kodların ne işe yaradığı yazılacak.
-- [x] Git'den kodların alınımı yazılacak.
-- [x] 1) Tek eksende (ileri) sabit hızda hareket.
-- [x] 2) Tek eksende değişken hızlarda hareket.
-- [x] 3) Çift eksende (İleri + sağ-sol) sabit hızda hareket.
-- [x] 4) Çift eksende değişken hızlarda hareket.
-- [x] Bütün senaryolar için control kodları eklenebilir.
-- [x] Geri gidiş özelliği Arduino kodlarında kalabilir ama Python kodlarında kaldırabiliriz. Böylece geri hareketi eklemek istediğimizde tek bir tuşla yaparız bu senaryoyu.
-+ [ ] 5) Platform (üçüncü eksen) için servolarla hareket denenip eklenecek.
-- [x] "What These Codes Actually Do?" kısmı genelden ziyade her bir klasörü içerebilir.
 # PlatformBot
 
 This git is about a robot which goes randomly in a space using **Raspberry Pi** and **Arduino**. Also this robot has a platform for a drone to land bu using **IMU Sensor**. But this platform does not stays same but moves randomly separated from the robot.
